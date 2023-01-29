@@ -211,7 +211,7 @@ def models_con(df):
               "Result":lista_results.append(fn[1]),
               "Hyperparameters":lista_parameters.append(fn[2])
               }
-  d = {'Test_Size':lista_size,'Modelo':lista_modelo,"Result":lista_results,"Hyperparameters ":lista_parameters}
+  d = {'Test_Size':lista_size,'Modelo':lista_modelo,"Result":lista_results,"Hyperparameters":lista_parameters}
   return d
 
 
@@ -231,5 +231,5 @@ def models_sin(df):
               "Result":lista_results.append(fn[1]),
               "Hyperparameters":lista_parameters.append(fn[2])
               }
-  g = {'Test_Size':lista_size,'Modelo':lista_modelo,"Result":lista_results,"Hyperparameters ":lista_parameters}
+  g = {'Test_Size':lista_size,'Modelo':lista_modelo,"Result":lista_results,"Hyperparameters":lista_parameters}
   return g
